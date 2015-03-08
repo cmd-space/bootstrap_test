@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Messing with Twitter Bootstrap">
+	<title>Twitter Bootstrap</title>
+	<!-- Latest compiled and minified CSS --> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h2>Grid system:</h2>
+		<div class="row">
+			<div class="col-md-4">Hello there how are you?</div>
+			<div class="col-md-offset-2">Hi. Just fine thanks. How are you?</div>
+		</div>
+		<h2>Text alignment:</h2>
+		<p class="text-left">Hi</p>
+		<p class="text-center">Hi</p>
+		<p class="text-right">Hi</p>
+		<p class="text-primary"></p>
+		<h2>Text colors:</h2>
+		<p class="text-primary">Good day to you, sir/madam!</p>
+		<p class="text-success">We have success!</p>
+		<p class="text-danger">Danger, Danger, Danger!</p>
+		<h2>Tables:</h2>
+		<table class="table">
+			<tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+			<tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+			<tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+		</table>
+		<table class=" table table-striped">
+			<tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+			<tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+			<tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+		</table>
+		<table class="table table-hover">
+			<tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+			<tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+			<tr><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+		</table>
+		<h2>Buttons:</h2>
+		<button class="btn">Click Me!</button>
+		<button class="btn-default">I Said Click Me!</button>
+		<button class="btn-primary">Please Click Me!</button>
+		<button class="btn-success">COME ON!</button>
+		<p></p>
+		<p></p>
+		<div class="dropdown">
+			<button class="btn btn-dfault dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-expanded="true">
+				Same as above
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Click Me!</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">I Said Click Me!</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Please Click Me!</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">COME ON!</a></li>
+			</ul>
+		</div>
+		<div class="jumbotron">
+			<h1 class="text-center">This is really big text!</h1>
+			<p class="text-center">This is smaller, but still pretty big. It's also centered in the middle of the div. So awesome! I have no lines in my bootstrap.css file. Woot!</p>
+			<p class="text-right"><a class="btn btn-success btn-lg" href="#" role="button">BIG Click Me!</a></p>
+		</div>
+		<div class="alert alert-success alert-dismissible" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			You can easily <strong>dismiss</strong> this alert by clicking on the x in the corner!
+		</div>
+	</div>
+</body>
+</html>
